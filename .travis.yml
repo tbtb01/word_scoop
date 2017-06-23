@@ -6,11 +6,4 @@ before_script:
   - "bundle exec rake compile"
 cache: bundler
 rvm:
-  - 2.0.0
-  - 2.1.8
-  - 2.2.4
-  - 2.3.0
-  - ruby-head
-notifications:
-  emails:
-    - tsukasa.oishi@gmail.com
+  - 2.4.1
